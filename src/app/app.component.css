@@ -1,0 +1,52 @@
+/* Aplicar fundo preto na página inteira */
+body {
+  background-color: #000000;  /* Cor de fundo preta */
+  color: #ffffff;  /* Cor do texto branca */
+  font-family: Arial, sans-serif;  /* Fonte do corpo da página */
+  margin: 0;
+  padding: 0;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #9c27b0; /* opcional: usa o mesmo roxo do botão */
+}
+
+/* Estilo do formulário */
+.form-container {
+  max-width: 400px;
+  margin: 50px auto; /* Centraliza o formulário e adiciona margem superior */
+  padding: 20px;
+  background-color: #ffffff;  /* Fundo branco do formulário */
+  color: #000000;  /* Texto preto dentro do formulário */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona uma leve sombra */
+}
+
+/* Espaçamento entre os campos */
+.mat-form-field {
+  margin-bottom: 15px;  /* Espaçamento entre os campos */
+}
+
+/* Estilo do botão customizado */
+.custom-button {
+  background-color: black !important;  /* Cor de fundo preta */
+  color: #9c27b0 !important;  /* Cor do texto roxa (violeta) */
+  border-radius: 30px;  /* Bordas arredondadas */
+  padding: 12px 24px;  /* Ajuste do tamanho do botão */
+  text-transform: none;  /* Retira o texto em caixa alta */
+  font-weight: bold;  /* Deixa o texto mais destacado */
+  border: 2px solid #9c27b0;  /* Borda roxa */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;  /* Animação para o hover */
+  width: 100%;  /* Faz o botão ocupar toda a largura disponível */
+  cursor: pointer;  /* Muda o cursor para uma mãozinha ao passar o mouse */
+}
+
+/* Estilo do botão ao passar o mouse (hover) */
+.custom-button:hover {
+  background-color: #9c27b0;  /* Cor de fundo roxa quando o mouse passa por cima */
+  color: white !important;  /* Cor do texto branca */
+  border-color: white;  /* Borda branca ao passar o mouse */
+}
